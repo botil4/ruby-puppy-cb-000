@@ -15,4 +15,8 @@ class Dog
     @@all.each {|name| puts name}
   end
 
+  def name
+    @name
+  end
+
 end
